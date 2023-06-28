@@ -1,0 +1,53 @@
+.login-signup-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+    width: 400px;
+
+    margin-top: 10vh;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-signup-form-container form {
+    height: 300px;
+    width: 250px;
+}
+
+.login-signup-form-container form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-signup-form-container p {
+    font-size: 1.5rem;
+}
+
+.login-signup-form-container .email-p,
+.login-signup-form-container .password-p {
+    font-size: 1rem;
+}
+
+.login-signup-form-container input {
+    height: 1.7rem;
+    width: 150px;
+    border-radius: 2px;
+    border-style: none;
+}
+.login-signup-form-container input::placeholder {
+    padding-left: 6px;
+}
+
+.login-signup-form-container .login-signup-button {
+    margin-top: 20px;
+    border-style: none;
+    background-color: white;
+    border-radius: 2px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}

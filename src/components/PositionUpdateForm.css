@@ -1,0 +1,38 @@
+.position-update-form {
+    border: solid;
+    border-color: white;
+    border-width: 0.1px;
+    padding: 10px;
+    width: 11rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.position-update-form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.position-update-form div input {
+    width: 100px;
+}
+
+.position-update-form .submit-button {
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--background-color);
+    width: 50px;
+    height: 23px;
+}
+.position-update-form .submit-button:hover {
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1px;
+    background-color: var(--pos-color);
+    color:white
+}

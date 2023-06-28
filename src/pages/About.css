@@ -1,0 +1,29 @@
+.introduction-container {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.concept-p {
+    font-size: 20px;
+}
+
+.or-p {
+    margin-left: 150px;
+}
+
+.instructions-p {
+    font-size: 16px;
+}
+
+.info-p { 
+    font-size: 16px;
+}
+
+.disclaimer-p {
+    font-size: 12px;
+}

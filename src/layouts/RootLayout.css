@@ -1,0 +1,83 @@
+.navbar {
+    display: flex;
+    justify-content: end; 
+    align-items: center;
+
+    border-bottom: solid;
+    border-color: white;
+
+    height: 60px;
+}
+
+.navbar .login-signup-navbar-navigation-container {
+    height: 100%;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    border-left: solid;
+}
+
+.navbar a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+.navbar .logged-in-navbar-navigation-container .logout-div {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar .logged-in-navbar-navigation-container .logout-div {
+    width: 230px;
+    height: 100%;
+    border-left: solid;
+}
+.navbar .logged-in-navbar-navigation-container .logout-div p {
+    font-size: 0.75rem;
+}
+
+
+.navbar .logged-in-navbar-navigation-container .logout-button {
+    background-color: var(--background-color);
+    color: white;
+
+    border-style: none;
+}
+.navbar .logged-in-navbar-navigation-container .logout-button:hover {
+    background-color: var(--background-color);
+    color: grey;
+
+    border-style: none;
+}
+
+
+
+
+
+.navbar .logged-in-navbar-navigation-container .links-div {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar .logged-in-navbar-navigation-container .links-div {
+    width: 350px;
+    height: 100%;
+    border-right: solid;   
+}
+
+
+.navbar .logged-in-navbar-navigation-container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

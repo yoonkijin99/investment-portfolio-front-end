@@ -1,0 +1,142 @@
+.position-div {
+  border-color: blue;
+  margin-bottom: 1%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+}
+
+
+
+
+
+.position-info-div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.position-info-div-1 p {
+  margin: 0px;
+}
+
+.symbol {
+  font-size: 2rem;
+  width: 8rem;
+}
+
+.shares {
+  font-size: 1.25rem;
+}
+
+.date {
+  font-size: 0.5rem;    
+}
+
+
+
+
+
+.position-info-div-2 {
+  height: 100%;
+  border-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+} 
+
+.position-info-div-2 .pos-pct,
+.position-info-div-2 .neg-pct {
+  width: 10rem;
+  text-align: end;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.position-info-div-2 .pos-pct {
+  color: var(--pos-color);
+}
+.position-info-div-2 .neg-pct {
+  color: var(--neg-color);
+}
+
+.position-info-div-2 .edit-delete-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+}
+
+.position-info-div-2 .edit-button {
+  background-color: var(--pos-color);
+  color: var(--background-color);
+  border-style: none;
+  height: 2.5rem;
+  width: 8rem;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  text-align: center;
+  padding-top: auto;
+  padding-bottom: auto;
+  
+}
+.position-info-div-2 .edit-button:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--pos-color);
+  color: var(--pos-color);
+  background-color: var(--background-color);
+}
+
+.position-info-div-2 .delete-button {
+  color: white;
+  background: none;
+  border: none;
+  padding: 0px;
+}
+.position-info-div-2 .delete-button:hover {
+  color: var(--neg-color);
+}
+
+
+
+
+
+.position-div .position-update-form-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 30rem;
+  justify-content: end;
+}
+
+.position-div .position-update-form-container .close-form-button-container {
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.position-div .position-update-form-container .close-form-button {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 12px;
+}
+.position-div .position-update-form-container .close-form-button:hover {
+  color: grey;
+}
+
+
+
+
+
+.in-position-graph-container {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}

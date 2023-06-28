@@ -1,0 +1,167 @@
+.home {
+    margin-left: 17vw;
+    margin-right: 17vw;
+    margin-bottom: 5vw;
+}
+
+
+
+
+
+.graph-container {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+
+
+
+
+
+.portfolio-status-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 20rem;
+}
+
+.portfolio-status-container .portfolio-performance-p-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.portfolio-status-container .portfolio-performance-p-container .portfolio-performance-p {
+    font-size: 2rem;   
+    width: 27rem;
+    text-align: start;
+    font-size: 2rem;
+}
+
+
+
+
+
+.portfolio-status-container .portfolio-status-div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 29rem;
+    justify-content: space-between;
+}
+.portfolio-status-container .portfolio-status-div p {
+    padding: 10px;
+    width: 8rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+.portfolio-status-container .portfolio-status-div .pos-pct {
+    color: var(--pos-color);
+}
+.portfolio-status-container .portfolio-status-div .neg-pct {
+    color: var(--neg-color);
+}
+
+.portfolio-status-container .portfolio-status-div .add-position-button {
+    background-color: var(--pos-color);
+    color: var(--background-color);
+    border: none;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.portfolio-status-container .portfolio-status-div .add-position-button:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--pos-color);
+    color: var(--pos-color);
+    background-color: var(--background-color);
+}
+
+
+
+
+
+.portfolio-status-container .portfolio-update-form-container {
+
+
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.portfolio-status-container .portfolio-update-form-container .close-form-button-container {
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.portfolio-status-container .portfolio-update-form-container .close-form-button {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 12px;
+}
+.portfolio-status-container .portfolio-update-form-container .close-form-button:hover {
+    color: grey;
+}
+
+
+.portfolio-status-container .portfolio-update-form-container .instructions-modal {
+    
+    margin-right: 15px;
+
+    background-color: grey;
+
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+
+
+    opacity: 0.7;
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.portfolio-status-container .portfolio-update-form-container .instructions-modal-container {
+
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.portfolio-status-container .portfolio-update-form-container .instructions-modal-container .instructions {
+
+    border: solid;
+    border-color: white;
+
+    height: 50vh;
+    width: 50vw; 
+
+    position: fixed;                        
+    left: 10px;
+    top: 10px;
+    background-color: rgba(0,0,0);
+
+    padding: 15px;
+}
+
+
+
+.positions-container .positions-p {
+    border-bottom: solid;
+    border-width: 0.1px;
+}

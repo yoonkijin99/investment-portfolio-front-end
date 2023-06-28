@@ -1,0 +1,61 @@
+.display-selector-container {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: space-between;
+    width: 19rem;
+}
+
+.display-selector {
+    background-color: white;
+    border-radius: 0px;
+    height: 2rem;
+}
+
+
+
+
+
+.display-selector-container .instructions-modal {
+    margin-right: 15px;
+
+    background-color: grey;
+    opacity: 0.7;
+
+
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.display-selector-container .instructions-modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.display-selector-container .instructions-modal-container .instructions {
+
+    border: solid;
+    border-color: white;
+
+    height: 150px;
+    width: 95vw; 
+
+    position: fixed;                        
+    left: 10px;
+    top: 300px;
+    background-color: rgba(0,0,0);
+
+    padding: 15px;
+}

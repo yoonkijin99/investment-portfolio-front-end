@@ -1,0 +1,33 @@
+:root {
+    --background-color: rgb(24, 24, 24);
+    --pos-color: rgb(37,201,155); 
+    --pos-color2: rgb(19,159,114);
+    --neg-color: rgb(195,61,35);
+}
+
+
+
+body {
+    font-family: Andale Mono;
+
+    color: white;
+    background-color: var(--background-color);
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 24
+}
+.material-symbols-rounded {
+    font-size: 1.25rem;
+    cursor: pointer;
+}
