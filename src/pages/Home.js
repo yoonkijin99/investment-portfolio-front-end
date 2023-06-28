@@ -40,8 +40,6 @@ const Home = () => {
             
             const json = await response.json();
 
-            console.log(json);
-
             
             
             if (response.ok) {

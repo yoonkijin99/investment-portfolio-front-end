@@ -56,7 +56,7 @@ const PieChart = ({ portfolioData }) => {
 
 
   if ((typeof portfolioData) === 'string') {
-    return <Pie data={{datasets: []}} options={options} />;
+    return <div></div>
   }
 
 
@@ -65,8 +65,6 @@ const PieChart = ({ portfolioData }) => {
 
 
   const weightingsData = portfolioData[1][portfolioData[1].length - 1].positionsWeightings;
-
-  console.log(weightingsData);
 
   const chartData = {
 
